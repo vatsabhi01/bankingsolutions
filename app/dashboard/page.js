@@ -45,28 +45,7 @@ export default function Dashboard() {
       email={user?.email}
       onLogout={logout}
   />
-      <div className="flex justify-between items-center">
-
-        <div>
-
-          <h1 className="text-5xl font-bold">
-            Good Morning 👋
-          </h1>
-
-          <p className="mt-3 text-xl text-gray-600">
-            {user?.email}
-          </p>
-
-        </div>
-
-        <button
-          onClick={logout}
-          className="bg-[#800020] text-white px-6 py-3 rounded-xl"
-        >
-          Logout
-        </button>
-
-      </div>
+     <br></br>
 
       <div className="mt-10 bg-white rounded-3xl shadow-lg p-8">
 
