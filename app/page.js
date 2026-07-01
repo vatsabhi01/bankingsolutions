@@ -1,25 +1,17 @@
 import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Stats from "@/components/Stats";
+import Features from "@/components/Features";
+import DailyMission from "@/components/DailyMission";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-
-      <main style={{
-        textAlign: "center",
-        padding: "80px"
-      }}>
-
-        <h1>Prepare Smarter.</h1>
-
-        <h1>Crack Banking Exams.</h1>
-
-        <p>
-          India's Smart Learning Platform
-        </p>
-
-      </main>
-
+      <Hero />
+      <Stats />
+      <Features />
+      <DailyMission />
     </>
   );
 }
